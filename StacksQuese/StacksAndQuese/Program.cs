@@ -20,6 +20,12 @@ namespace StacksAndQuese
             Console.WriteLine("list after Peek");
             stack.Display();
             stack.Size();
+            Queue queue = new Queue();
+            queue.Insertingqueue(70);
+            queue.Insertingqueue(30);
+            queue.Insertingqueue(56);
+            Console.WriteLine("Quese list");
+            queue.Display();
         }
     }
 }
